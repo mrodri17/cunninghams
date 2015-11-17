@@ -1,0 +1,173 @@
+a {
+	font-size: 20px;
+	
+}
+body {
+	margin-left: 0.5in;
+	margin-top: 0.5in;
+	margin-right: 0.5in;
+	margin-bottom: 0.25in;
+	font-family: 'Balthazar', "Copperplate light", "Copperplate", serif;
+	background: #686868;
+
+}
+h2 {
+	text-align: center;
+	font-size: 26px;
+	
+}
+h3 {
+	text-align: center;
+	font-size: 18px;
+	color: #949393;
+	}
+h4 {
+	font-size: 24px;
+	text-decoration: underline;
+	
+}
+h5 {
+	font-size: 16px;
+	
+}
+h6 {
+	font-size: 24px;
+	color: black;
+	letter-spacing: .1em;
+	
+}
+strong {
+	font-weight: bold;
+	letter-spacing: .1em;
+	
+	
+}
+hr {
+	background-color:#000000;
+	
+}
+img,
+video,
+iframe {
+	max-width: 100%;
+	height: auto;
+
+}
+p {
+    font-size: 16px;
+
+}
+
+.section-title {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #000;
+}
+
+.about-desc {
+	text-align:center;
+	
+}
+
+.logo {
+	margin-bottom: 20px;
+}
+
+.menu-item-title {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: #000
+	
+}
+.menu-item-desc {
+	font-size: 17px;
+	font-style: italic;
+	text-transform: lowercase;
+	color: #434343;
+}
+.menu-item-pairing {
+	font-size: 14px;
+	font-style: italic;
+	text-transform: lowercase;
+	color: #949393;
+	font-weight: bold;
+}
+.pairing-type {
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+.nav {
+	display: block;
+	padding: 0;
+	list-style: none;
+}
+.nav.fit li {
+		display: table-cell;
+		letter-spacing: .2em;	
+		
+	}
+.nav.fit {
+		display: table;
+		width: 100%;
+	}
+.nav {
+	display: block;
+	padding: 0;
+	list-style: none;
+	
+}
+
+.nav li {
+	display: block;
+	
+}
+
+.nav a {
+	display: block;
+	position: relative;
+	padding: 1em;
+	background: #686868;
+	transition: all 150ms ease-in-out;
+
+}
+
+.nav a:link,
+.nav a:active,
+.nav a:visited {
+	color: #000;
+}
+
+.nav a:hover {
+	color: black;
+	background: #788a88;
+	transition-duration: .3s;
+	
+}
+
+.nav a:after {
+	content:' ';
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 0%;
+	height: 5px;
+	background: #788a88;
+	transition: all .3s ease-in;
+}
+
+.nav a:hover:after {
+	width: 100%;
+}
+
+.nav.center {
+	text-align: center;
+}
+.chefs-section {
+		margin-bottom: 10px;
+
+}
+		
+	
